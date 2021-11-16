@@ -1,15 +1,19 @@
-# Trabalhando com diferentes Branches
+# Diferença entre arquivos
 
-Branche = Dentro de um branch tem um histórico de alterações, modificações, etc e se eu criar um novo branch ele vai assumir o estado atual do código e vai começar um histórico a partir da aí.
+ - Diferença entre um arquivo comitado e um que esta só no computador.
+ 
+# Comandos 
+ - git diff = consegue ver o que foi realmente modificado em cada arquivo.
 
-# Criando um novo branch
- Comando :
- - git branch teste (Nome do branch)
+ Ex: git diff (vai mostrar as alterações de todos os arquivos)
+ EX: git diff style.css (vai mostrar as alterações só desse arquivo.)
+
+ EX:  git diff --name-only = consegue ver só os nomes  dos arquivos que foram modificados.
+
+ # Querer voltar para uma versão anterior de um arquivo
+ git checkout HEAD(vai pegar a branch atual) -- style.css = ele vai voltar ao estado inicial do arquivo antes da modificação.
 
 
-# Troca de branch
- Comando:
- - git checkout teste (Nome do branch)
  
 
  
